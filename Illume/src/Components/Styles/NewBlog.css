@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.newBlog{
+    width: 75%;
+    height: auto;
+    background-color: rgb(62, 182, 182);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 9%;
+    left: 12.5%;
+    justify-content: center;
+    align-items: center;
+    border-radius: .8rem;
+    box-shadow: 0 0.8rem 0.8rem rgba(0, 0,0,.2);
+}
+.groupBackground{
+    width: 65vw;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    left: 0.2%;
+    right: 11.5%;
+    justify-content: center;
+    align-items: center;
+    border-radius: .8rem;
+    box-shadow: 0 0.8rem 0.8rem rgba(0, 0,0,.2);
+}
+.photo{
+    align-items: left;
+    justify-content: left;
+    display: flex;
+}
+
+#photo{
+    border: none;
+    padding: 12px 20px;
+    border: none;
+    margin-left: 0;
+    text-align: left;
+    box-shadow: 0 .2rem .2rem rgba(54, 186, 196, 0.2);
+    border-radius: .8rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.urbutton{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.urbutton button{
+    background: none;
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-family: "Verdana";
+    font-size:  16px;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0,0,.2);
+    border-radius: .8rem;
+    padding: .8rem 2rem;
+    background-color: white;
+    outline: none;    
+}
+.urbutton >td:last-child{
+    text-align: center;
+}
+
+.urbutton >td:first-child{
+    text-align: center;
+}
+.urbutton button:hover{
+    background-color: #18181a;
+    font-weight: 400;
+    color: white;
+}
+
+.classes.root{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+
+
+.title{
+    margin-top: 10%;
+}
+
+.title,
+.shortDescription,
+.content{
+    margin-bottom: 2%;
+}
+
+#Title{
+    padding-left: 8px;
+}
+
+#shortDes,
+#Content{
+    overflow-y: scroll;
+    border-color: rgb(62, 182, 182);
+    padding-left: 8px;
+}
